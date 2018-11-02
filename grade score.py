@@ -21,5 +21,9 @@ print("the average of your scores is ",final_average)
 
 if final_average >= 90:
     print ("your grade is A")
-if final_average >= 80:
-    print ("")
+else:
+    if final_average >= 80:
+        print ("your grade is B")
+        else:
+            if final_average >= 70:
+                print ("your")
